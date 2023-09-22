@@ -5,20 +5,101 @@
 }
 
 body{
-    display: flex;
     background-color: azure;
     height:100vh;
     justify-content: center;
     align-items: center;
-  
+    display:flex;
 }
 
 .Menulist{
     width: 300px;
     height: 400px;
-    border: 2px solid black;
-    justify-content: center;
-    align-items: center;
-    margin-top: 60px;
+    max-width: 300px;
+    max-height: 400px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.linklist{
+  
+   text-align: center;
+   text-decoration: none;
+   line-height: 48px;
+   
+   
+   
+}
+
+.Bigtitle{
+   font-size: 28px;
+   text-align: center;
+   background-color: rgb(230, 173, 18);
+   height: 50px;
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+   padding-top:10px;
+   padding-bottom: 10px;
+
+}
+
+.firstlink{
+  
+   text-decoration: none;
+   font-size: 20px;
+   color: rgb(4, 4, 71);
+   font-weight: 500;
+   
+   
+}
+.secondlink{
+  
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(4, 4, 71);
+    font-weight: 500;
+}
+.thirdlink{
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(4, 4, 71);
+    font-weight: 500;
+}
+.fourthlink{
+    color: rgb(4, 4, 71);
+    font-weight: 500;
+    text-decoration: none; 
+    font-size: 20px; 
+}
+.fifthlink{
+    text-decoration: none; 
+    font-size: 20px;
+    color: rgb(4, 4, 71);
+   font-weight: 500;
+}
+.sixthlink{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(4, 4, 71);
+    font-weight: 500;
+}
+.lastlink{
+    text-decoration: none;
+    font-size: 10px;
+    
+   
+}
+
+.firstlink:hover, .secondlink:hover, .thirdlink:hover, .fourthlink:hover, .fifthlink:hover, .sixthlink:hover{
+    background-color: hsla(49, 88%, 50%, 0.966);
+}
+
+
+ul{
+    list-style-type: none;
+    
+  
     
 }
